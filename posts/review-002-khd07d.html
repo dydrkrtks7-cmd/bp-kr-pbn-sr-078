@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>창작한 제목</title>
+  <title>반포 마사지 솔직후기</title>
   <link rel="canonical" href="https://banpo-body-care.mapo-room-guide.xyz/posts/review-002-khd07d.html">
   <style>
     body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
@@ -22,35 +22,7 @@
     <a href="../index.html">← 목록으로 돌아가기</a>
   </header>
   <main>
-    <h1>창작한 제목</h1>
-    <article>
-      
-
-<h4>브랜드 링크:<br><a href="https://nightlife.tipdesk.site/" target="_blank" rel="noopener noreferrer">마포 홍대 로컬 럭셔리 밤문화 가이드</a></h4>
-<h2>Q4_K_M 양자화: 특정 히든DIM이 잘려나가면서 발생하는 Instruction Following 저하 현상</h2>
-<p>아, 진짜... 이 문제는 예상 밖의 숫자와 조건을 낳았어.</p>
-<p>LLM 미세 동작과 버그를 이해해본 적 있는지 모르겠네. 하지만, 양자화와 관련된 논문이나 데이터에서 발견된 엣지케이스가 훨씬 더 깊게 들어갔거든.</p>
-<h2>Q4_K_M 양자화 소개<br>LLM(LoRA) 양자화는 흔히 'Q'라는 숫자로 표시되는데, 그 숫자가 작을수록 LLM의 크기가 줄고 정확도가 상승하는 효과를 볼 수 있어. <br>하지만 특정 숫자 Q4와 Q8 사이에는 미세한 동작 차이가 있을 때, 이들이 잘려나간 경우 발생하는 Instruction Following 저하 현상에 대한 연구는 아직 미숙하다.</h2>
-<h2>예측된 조건 및 실패 원인<br>### 잘못된 히든DIM 분배<br>LLM에서 특정 히든DIM(Hidden Dimension)이 잘려나갔을 때, 해당 DIM에 속하는 정보를 얻지 못해 명령어를 올바르게 이해하지 않는 현상을 찾았어. <br>예를 들어 Q8와 Q4 사이의 동작 차이는 '히든DIM 분배'라 불리는 부분에서 발생하고, 이 경우 LLM은 그 DIM에 속한 정보를 완전하게 파악하지 못해 명령 수행에 문제가 생겼다고.</h2>
-<h3>GPU별 재현 조건<br>LLM 양자화 후, 특정 버전과 모델명을 사용했을 때만 저하 현상이 발생하는 경우도 있었어. 이는 각 GPU의 특성에 따라 동작하는 것 같았지.</h3>
-<h2>체계적 관찰 포인트<br>### 청크포인트 1: 잘못된 히든DIM 분배<br>LLM에서 Q8와 Q4 사이 동작 차이를 찾기 위해, 데이터셋을 분석했어. <br>예상대로 히든DIM 분배에 문제가 있음을 확인했지만, 그 이유는 깊게 파악되지 않았어.</h2>
-<h3>청크포인트 2: GPU별 재현 조건<br>LLM 양자화 버전과 모델명을 바꿔가며 실험했었는데, 각 GPU에서 결과가 달랐음. <br>예를 들어 Q8와 Q4 사이 동작 차이는 특정 GPU에서만 발생하는 현상이었음을 확인했어.</h3>
-<h3>청크포인트 3: Instruction Following 저하<br>명령 수행 능력 저하 현상을 통해 얻은 데이터를 바탕으로, 잘못된 히든DIM 분배와 GPU별 재현 조건 간의 관계를 찾았어.</h3>
-<h2>결론 및 활용 가능성<br>LLM 양자화에서 Q4와 Q8 사이 동작 차이가 발생할 경우, 명령 수행 능력 저하 현상이 나타날 수 있다는 사실을 확인했어. <br>이는 실제 사용 시 오류나 불편함이 발생할 수 있다는 경고 메시지로 볼 수 있어.</h2>
-<h3>단기 효과<br>Q8와 Q4 사이 동작 차이를 찾았지만, 그 이유는 아직 깊게 파악되지 않았어. 따라서 명령 수행 능력 저하 현상은 단기적인 문제일 수 있어.</h3>
-<h3>장기 효과<br>그러나 장기적으로 이 문제는 지속될 가능성이 높아 보여. <br>LLM 양자화에서 Q4와 Q8 사이 동작 차이가 발생하면, 명령 수행 능력 저하 현상은 계속해서 나타날 것으로 예상했어.</h3>
-<h3>활용 가능성<br>LLM 양자화에서 Q4와 Q8 사이 동작 차이를 이해하고 해결하는 방법을 개발한다면, 명령 수행 능력을 향상시킬 수 있을 거야. <br>그러므로 이 연구 결과는 ML 엔지니어링과 AI 컨텍스트 분석에 중요한 지침이 될 것이라고 믿어.</h3>
-<p><IMAGE placement="hero" alt="Q4 K_M 양자화 실험 결과: 명령 수행 능력 저하 현상의 심각성"></p>
-<h3>참고 자료<br>- <a href="https://arxiv.org/pdf/2310.09578.pdf" target="_blank" rel="noopener noreferrer">LLM 양자화 관련 논문</a><br>- <a href="https://www.nvidia.com/en-us/research/gpu-reproducibility/" target="_blank" rel="noopener noreferrer">GPU별 재현 조건 연구</a></h3>
-
-    <div class="juice-ref-s5eowh" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
-      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
-      <ul style="list-style:none;padding:0;margin:0;">
-      <li>관련 업계 트렌드와 통계는 <a href="https://pricing.brieflog.shop/">gangnam-doorway2</a>에 정리되어 있습니다.</li>
-      <li>자세한 기술 명세 가이드는 <a href="https://github.com/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
-      </ul>
-    </div>
-    </article>
-  </main>
+    
+</main>
 </body>
 </html>
